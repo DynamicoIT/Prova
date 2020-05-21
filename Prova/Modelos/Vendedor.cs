@@ -1,4 +1,6 @@
-﻿namespace Prova.Modelos
+﻿using System.Globalization;
+
+namespace Prova.Modelos
 {
     internal class Vendedor
     {
@@ -10,7 +12,7 @@
         {
             this.cpf = dados.segunda;
             this.nome = dados.terceira;
-            double.TryParse(dados.quarta, out this.salario);
+            this.salario = double.Parse(dados.quarta, CultureInfo.InvariantCulture);
         }
     }
 }
