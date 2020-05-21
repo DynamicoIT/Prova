@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova", "Prova\Prova.csproj", "{653760D9-3203-412B-BADA-94BC65925EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{A1597B66-8A82-4719-9ED8-ADD4FBFA3E7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653760D9-3203-412B-BADA-94BC65925EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653760D9-3203-412B-BADA-94BC65925EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653760D9-3203-412B-BADA-94BC65925EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653760D9-3203-412B-BADA-94BC65925EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1597B66-8A82-4719-9ED8-ADD4FBFA3E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1597B66-8A82-4719-9ED8-ADD4FBFA3E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1597B66-8A82-4719-9ED8-ADD4FBFA3E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1597B66-8A82-4719-9ED8-ADD4FBFA3E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1553379A-5EB0-4F98-8EC3-0282FC3331BC}
+	EndGlobalSection
+EndGlobal
